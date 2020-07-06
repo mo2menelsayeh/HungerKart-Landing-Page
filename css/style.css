@@ -1,0 +1,113 @@
+.container {
+    max-width: 90%;
+}
+
+.btn-warning {
+    padding: 10px 30px;
+    background-color: #E3A366;
+    border-color: #E3A366;
+    font-size: 20px;
+    border-radius: 15px !important;
+    box-shadow: none !important;
+}
+.btn-warning:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2) !important;
+    cursor:pointer;
+    background-color: #E3A366 !important;
+    border-color: #E3A366 !important;
+}
+
+
+header {
+    background-color: #C4F1F4;
+    max-height: 100vh;
+}
+.card {
+    border: 2px solid transparent;
+    border-radius: 24px 24px 0px 24px;
+    
+}
+.card:hover {
+    border: 2px solid orange;
+    cursor:pointer;
+}
+
+.restaurants .card img {
+    padding: 15px;
+    border-radius: 24px 24px 0px 24px;
+    max-width: 220px;
+    max-height: 220px;
+    margin: auto;
+}
+.social a:hover {
+    cursor: pointer;
+    color: orange;
+}
+@media only screen and (max-width: 768px) {
+    .img1 {
+        display: none;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    header .col-lg-5 {
+        padding-bottom: 50px;
+    }
+}
+
+.best-offers .card img {
+    padding: 1px;
+    border-radius: 24px 24px 0px 0px;
+    margin: auto;
+}
+.card-footer {
+    background-color: white;
+    border-top: none;
+    border-radius: 24px 24px 0px 24px;
+    margin: 10px;
+    align-items: baseline;
+}
+.card-text {
+    color: #707070;
+    font-weight: 700;
+    margin-top: -50px;
+    padding-bottom: 5px;
+}
+.best-offers .btn-warning {
+    padding: 5px 20px;
+    background-color: #E3A366;
+    border-color: #E3A366;
+    font-size: 20px;
+    border-radius: 30px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: orange !important;
+}
+.best-offers .card-footer p {
+    font-weight: 700;
+    color: #F37B1E;
+    padding-right: 40px;
+}
+.restaurants .card-footer {
+    background-color: #DAF6F8 !important;
+}
+.restaurants .card-body {
+    border-radius: 0px 0px 0px 24px;
+    background-color: #DAF6F8;
+}
+.card-title {
+    font-weight: 700;
+}
+.chevron {
+    background-color: black;
+    text-align: center;
+    font-size: 28px;
+    line-height: 90px;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #F37B1E !important;
+}
